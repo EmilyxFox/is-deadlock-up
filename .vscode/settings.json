@@ -1,0 +1,6 @@
+{
+	"editor.defaultFormatter": "biomejs.biome",
+	"[postcss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
