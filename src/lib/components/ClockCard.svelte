@@ -112,7 +112,7 @@ setInterval(() => {
 </script>
 
 
-<div class="flex flex-col w-1/6 bg-cardBackground rounded-md">
+<div class="flex flex-col w-full lg:w-1/6 bg-cardBackground rounded-md mb-8">
     <h2 class="text-4xl font-bold text-center my-4">{region.prettyName}</h2>
     <div class="flex flex-row justify-around">
         <h3 class="text-center text-xl">Start</h3>
