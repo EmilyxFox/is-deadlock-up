@@ -10,11 +10,11 @@ import deadclock from "$lib/images/deadclock.webp";
 
 
 <div class="w-11/12 m-auto">
-    <!-- <h1 class="font-bold text-6xl pt-4 px-4 pb-10">Is Deadlock up?</h1> -->
+    <!-- <h1 class="px-4 pt-4 pb-10 text-6xl font-bold">Is Deadlock up?</h1> -->
     <header class="pl-2 mt-4 mb-8">
         <img src={deadclock} alt="Deadclock Logo">
     </header>
-    <div class="flex flex-col lg:flex-row justify-between">
+    <div class="flex flex-col justify-between lg:flex-row">
         <ClockCard region="na" />
         <ClockCard region="sa" />
         <ClockCard region="eu" />
