@@ -132,9 +132,7 @@ function updateServerInfo(region: RegionInfo) {
 		if (minutes > 0) {
 			countdownString += `${minutes}m`;
 		}
-		if (hours !== 0 && minutes !== 0 && seconds !== 0) {
-			countdownString += `${seconds}s`;
-		}
+		countdownString += `${seconds}s`;
 	}
 }
 
