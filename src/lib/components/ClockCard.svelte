@@ -117,7 +117,7 @@ function updateServerInfo(region: RegionInfo) {
 	countdownString = "";
 	if (!isOpen) {
 		// Time remaining until the server closes
-		const countdownTime = serverEndTimeUTC.getTime() - now.getTime();
+		const countdownTime = serverStartTimeUTC.getTime() - now.getTime();
 
 		// Calculate hours and minutes remaining
 		const hours = Math.floor(countdownTime / (1000 * 60 * 60));
