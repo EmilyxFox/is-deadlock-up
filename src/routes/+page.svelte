@@ -4,7 +4,7 @@ import deadclock from "$lib/images/deadclock.webp";
 </script>
 
 <svelte:head>
-    <title>Is Deadlock up?</title>
+    <title>Deadclock</title>
 </svelte:head>
 
 
